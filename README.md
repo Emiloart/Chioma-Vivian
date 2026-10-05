@@ -40,4 +40,3 @@ scripts/build_cv_pdf.py   # regenerates assets/Mogaha-Chioma-Vivian-CV.pdf from 
 ## Deploying to GitHub Pages
 
 Settings → Pages → Deploy from branch → `main` → `/ (root)`. No build step is needed since the compiled JS is committed.
-# Chioma-Vivian
