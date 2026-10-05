@@ -570,22 +570,29 @@ ul {
   font-size: 0.88rem;
 }
 
-.footer-inner .mark {
-  color: var(--milk);
-  gap: 0.5rem;
-  text-decoration: none;
-  margin-right: auto;
+.footer-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.7rem 1rem;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 999px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06);
 }
 
-.footer-inner .mark-badge {
-  width: 28px;
-  height: 28px;
-  border-color: rgba(255, 255, 255, 0.2);
+.footer-brand .mark-badge {
+  width: 30px;
+  height: 30px;
+  border-width: 1px;
+  border-color: rgba(255, 255, 255, 0.18);
 }
 
-.footer-inner .mark-name {
-  font-size: 0.9rem;
+.footer-brand .mark-name {
   color: var(--milk);
+  font-size: 0.88rem;
+  line-height: 1.1;
+  white-space: normal;
 }
 
 .footer-inner p {
@@ -624,10 +631,6 @@ ul {
     flex-direction: column;
     align-items: flex-start;
     gap: 1rem;
-  }
-
-  .footer-inner .mark {
-    margin-right: 0;
   }
 }
 
