@@ -158,17 +158,13 @@ ul {
 }
 
 .mark-badge {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
+  display: block;
   width: 34px;
   height: 34px;
   border-radius: 50%;
-  background: var(--coffee);
-  color: var(--milk);
-  font-family: var(--serif);
-  font-size: 0.78rem;
-  letter-spacing: 0.02em;
+  object-fit: cover;
+  background: var(--milk);
+  border: 1px solid var(--milk-edge);
   flex: none;
 }
 
@@ -277,12 +273,17 @@ ul {
   margin: 0;
 }
 
-.hero-art svg {
+.hero-photo {
+  display: block;
   width: 100%;
   height: auto;
-  max-width: 420px;
-  display: block;
+  max-width: 380px;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
   margin: 0 auto;
+  border-radius: 20px;
+  background: var(--sky-pale);
+  box-shadow: 14px 14px 0 var(--sky-pale);
 }
 
 .hero-art {
@@ -574,6 +575,10 @@ ul {
     order: -1;
     max-width: 260px;
     margin: 0 auto;
+  }
+
+  .hero-photo {
+    box-shadow: 10px 10px 0 var(--sky-pale);
   }
 
   .skills-grid,
