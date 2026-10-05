@@ -1,0 +1,13 @@
+{
+  "name": "mogaha-chioma-vivian-portfolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio website for Mogaha Chioma Vivian",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0"
+  }
+}
